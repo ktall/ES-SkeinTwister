@@ -20,8 +20,8 @@ sourcing and cost at 5 to 15 units a year, not engineering.
 ## Electronics in one paragraph
 
 ATmega328P microcontroller, a 5 V regulator (TLV76050), one N-channel MOSFET
-driving the motor with PWM (low-side, so one direction only), a pot for speed
-(the knob), a 6.35 mm jack for the foot pedal, a big 820 µF capacitor and a TVS
+driving the motor with PWM (low-side, so one direction only), a pot that picks
+the mode and the twist time (the knob, not speed: see the firmware's NOTES.md), a 6.35 mm jack for the foot pedal, a big 820 µF capacitor and a TVS
 diode for protection. About 30 parts. Nothing exotic, nothing end-of-life at
 first glance.
 
