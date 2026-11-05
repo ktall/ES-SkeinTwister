@@ -26,7 +26,7 @@ makes sense.
    - **BLDC + FOC driver**: the quietest, most complex.
    - First step either way: measure where the noise comes from on her units (motor, gearbox, PWM whine at ~156 Hz, enclosure resonance).
 3. **Both directions**: needs an H-bridge (DC) or comes free (stepper).
-4. **USB-C as data and/or power**: USB-C for firmware updates and profiles is easy. USB-C **as the power supply** (PD) is harder: 72 W at 12 V is not a standard PD voltage (15 or 20 V are), so the motor choice and the supply go together.
+4. **USB-C as data and/or power**: USB-C for firmware updates and profiles is easy. USB-C **as the power supply** (PD) is harder: 72 W at 12 V is not a standard PD voltage (15 or 20 V are), so the motor choice and the supply go together. **Decided (owner, 2026-11-06): USB-C for data only, the motor keeps a dedicated external power supply.**
 5. **Avoid wireless** (Wi-Fi/Bluetooth) unless it's worth it: Radio Equipment Directive, see CERTIFICATION.md. Rules out a plain ESP32 module, or keeps its radio off.
 6. **Crossover with the keyboard**: an RP2040 (or RP2350) would reuse what we know from the DaganaSplit.
 7. **Mechanics**: a new motor means a new motor mount and maybe a new enclosure layout; a screen means a new front panel. The workshop can do both.
