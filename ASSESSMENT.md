@@ -61,7 +61,7 @@ Custom parts are the cost risk at low volume (setup fees, minimum orders).
 ## Decisions (2026-11-05)
 
 1. **PCB and assembly at JLCPCB**, same as the keyboard. Owner asks the quotes.
-2. **Mechanical parts made in the home workshop** (CNC wood + aluminium, diode laser, CO2 laser, UV printer maybe): wood base, hook, knob, motor spacer, label, and drilling the box. **Only the aluminium box is sourced** (stock Hammond 1590P1FL).
+2. **Mechanical parts made in the home workshop** (CNC wood + aluminium, 3D printer, diode laser, CO2 laser, UV printer maybe): wood base, hook, knob, motor spacer, label, and drilling the box. **Only the aluminium box is sourced** (stock Hammond 1590P1FL).
 3. **Selling is on the table**: see CERTIFICATION.md.
 4. **Firmware fork**: `~/Claude/ES-SkeinTwisterCode`.
 
